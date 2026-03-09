@@ -5,7 +5,7 @@ pipeline {
 
         stage('Checkout Code') {
             steps {
-                git 'https://github.com/imranbhuiyan28/ALLBIRD-automation-framework.git'
+               git branch: 'main', url: 'https://github.com/imranbhuiyan28/ALLBIRD-automation-framework.git'
             }
         }
 
