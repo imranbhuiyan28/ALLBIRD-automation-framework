@@ -14,3 +14,6 @@ Feature: Product Search
     When I search for "InvalidProductXYZ"
     Then I should see "Sorry, we couldn't find any results"
 
+
+  
+

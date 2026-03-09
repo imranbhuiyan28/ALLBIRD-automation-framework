@@ -9,7 +9,7 @@ Feature: Shopping Cart
     When I add the product to cart
     Then the cart should display the product
 
-  @smoke
+  @smoke @regression
 
   Scenario: Update product quantity
     Given open the homepage

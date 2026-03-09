@@ -38,3 +38,4 @@ class MainPage(BasePage):
     def verify_load_time(self):
         assert self.load_time < 3, f"page is too slow and load time is {self.load_time:2f}"
         print("page load time within 3 seconds")
+    

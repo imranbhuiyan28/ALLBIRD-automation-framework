@@ -10,8 +10,9 @@ class CartPage(BasePage):
     ADD_CART = (By.CSS_SELECTOR, '[class="font-sans text-xs font-medium tracking-wider uppercase"]')
     SHOE_SIZE = (By.XPATH, "(//span[contains(text(),'10')])[7]")
     CHECK_OUT = (By.CSS_SELECTOR, '[id="cart-drawer-checkout-button"]')
-    PRODUCT_DISPLAY = (By.CSS_SELECTOR, '[class="_1tx8jg70 _1fragemsm _1tx8jg7i _1tx8jg7b _1fragemv5 _1tx8jg717 _1tx8jg71f _1tx8jg71h"]')
-    HOME_PAGE = (By.CSS_SELECTOR, '[class="s2kwpi1 s2kwpi0 _1fragemsm _1fragemyw _1fragemz2 _1fragemyq s2kwpi3 s2kwpi6 s2kwpi9 s2kwpi7 _1fragem32 _1fragemvq"')
+    PRODUCT_DISPLAY = (By.CSS_SELECTOR, '[class="_1fragem32 _1fragemsm dDm6x')
+    CLOSE_BTN = (By.CSS_SELECTOR, '[aria-label="Close cart')
+    HOME_PAGE = (By.CSS_SELECTOR, '[alt="Allbirds')
     CAR_BUTTON = (By.XPATH, "(//*[name()='svg'][@class='size-6'])[8]")
     REMOVE_ITEM = (By.CSS_SELECTOR, '[title="Remove item"]')
     CART_EMPTY = (By.CSS_SELECTOR, '[class="mb-10 px-5 text-center text-xl md:px-10"]')
@@ -46,7 +47,11 @@ class CartPage(BasePage):
 
 
     def remove_product(self):
-        self.click(*self.HOME_PAGE)
+        
+        
+        self.driver.back()
+        sleep(2)
+        self.click(*self.CLOSE_BTN)
         sleep(2)
         self.click(*self.CAR_BUTTON)
         sleep(2)

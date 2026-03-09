@@ -3251,3 +3251,238 @@
 2026-03-05 23:45:16,141 - support.logger - INFO - Clicking element: ('xpath', "//li[@class='flex items-center justify-center']//a[@title='Search']")
 2026-03-05 23:45:24,127 - support.logger - INFO - Starting step: <then "I should see "Sorry, we couldn't find any results"">
 2026-03-05 23:45:24,127 - support.logger - INFO - Finding element: ('css selector', '[id="no-results-message"]')
+2026-03-06 01:18:55,940 - support.logger - INFO - Starting scenario: Update product quantity
+2026-03-06 01:18:58,267 - support.logger - INFO - Starting step: <given "open the homepage">
+2026-03-06 01:18:59,254 - support.logger - INFO - Opening url: https://www.allbirds.com/
+2026-03-06 01:18:59,254 - support.logger - INFO - Starting step: <when "I update the quantity to 3">
+2026-03-06 01:19:11,684 - support.logger - INFO - Starting step: <then "the cart total should reflect the quantity">
+2026-03-07 05:03:43,279 - support.logger - INFO - Starting scenario: Add product to cart
+2026-03-07 05:03:46,063 - support.logger - INFO - Starting step: <given "open the homepage">
+2026-03-07 05:03:48,596 - support.logger - INFO - Opening url: https://www.allbirds.com/
+2026-03-07 05:03:48,596 - support.logger - INFO - Starting step: <when "I add the product to cart">
+2026-03-07 05:03:50,730 - support.logger - INFO - Clicking element: ('css selector', '[id="cart-drawer-checkout-button"]')
+2026-03-07 05:03:57,321 - support.logger - INFO - Starting step: <then "the cart should display the product">
+2026-03-07 05:04:01,353 - support.logger - ERROR - Step failed: <then "the cart should display the product">
+2026-03-07 05:04:01,468 - support.logger - INFO - Starting scenario: Add product to cart
+2026-03-07 05:04:02,925 - support.logger - INFO - Starting step: <given "open the homepage">
+2026-03-07 05:04:04,917 - support.logger - INFO - Opening url: https://www.allbirds.com/
+2026-03-07 05:04:04,917 - support.logger - INFO - Starting step: <when "I add the product to cart">
+2026-03-07 05:04:07,093 - support.logger - INFO - Clicking element: ('css selector', '[id="cart-drawer-checkout-button"]')
+2026-03-07 05:04:13,676 - support.logger - INFO - Starting step: <then "the cart should display the product">
+2026-03-07 05:04:13,693 - support.logger - ERROR - Step failed: <then "the cart should display the product">
+2026-03-07 05:04:13,807 - support.logger - INFO - Starting scenario: Update product quantity
+2026-03-07 05:04:15,183 - support.logger - INFO - Starting step: <given "open the homepage">
+2026-03-07 05:04:15,685 - support.logger - INFO - Opening url: https://www.allbirds.com/
+2026-03-07 05:04:15,686 - support.logger - INFO - Starting step: <when "I update the quantity to 3">
+2026-03-07 05:04:15,687 - support.logger - ERROR - Step failed: <when "I update the quantity to 3">
+2026-03-07 05:04:15,758 - support.logger - INFO - Starting scenario: Verify logo redirects to homepage
+2026-03-07 05:04:17,176 - support.logger - INFO - Starting step: <given "open the homepage">
+2026-03-07 05:04:17,506 - support.logger - INFO - Opening url: https://www.allbirds.com/
+2026-03-07 05:04:17,506 - support.logger - INFO - Starting step: <then "Verify there is logo">
+2026-03-07 05:04:17,508 - support.logger - ERROR - Step failed: <then "Verify there is logo">
+2026-03-07 05:04:17,579 - support.logger - INFO - Starting scenario: Verify footer links
+2026-03-07 05:04:18,940 - support.logger - INFO - Starting step: <given "open the homepage">
+2026-03-07 05:04:19,468 - support.logger - INFO - Opening url: https://www.allbirds.com/
+2026-03-07 05:04:19,468 - support.logger - INFO - Starting step: <then "all footer links should navigate to the correct page">
+2026-03-07 05:04:19,470 - support.logger - ERROR - Step failed: <then "all footer links should navigate to the correct page">
+2026-03-07 05:04:19,540 - support.logger - INFO - Starting scenario: Verify social media links
+2026-03-07 05:04:20,907 - support.logger - INFO - Starting step: <given "open the homepage">
+2026-03-07 05:04:21,270 - support.logger - INFO - Opening url: https://www.allbirds.com/
+2026-03-07 05:04:21,270 - support.logger - INFO - Starting step: <then "all social media icons should open correct URLs">
+2026-03-07 05:04:21,272 - support.logger - ERROR - Step failed: <then "all social media icons should open correct URLs">
+2026-03-07 05:04:21,344 - support.logger - INFO - Starting scenario: Add product to cart
+2026-03-07 05:04:22,671 - support.logger - INFO - Starting step: <given "open the homepage">
+2026-03-07 05:04:22,942 - support.logger - INFO - Opening url: https://www.allbirds.com/
+2026-03-07 05:04:22,942 - support.logger - INFO - Starting step: <then "select for men">
+2026-03-07 05:04:22,943 - support.logger - INFO - Clicking element: ('css selector', '[class="shop-men btn btn-outline-black min-w-32"]')
+2026-03-07 05:04:22,944 - support.logger - ERROR - Step failed: <then "select for men">
+2026-03-07 05:04:23,013 - support.logger - INFO - Starting scenario: Verify product images load
+2026-03-07 05:04:24,424 - support.logger - INFO - Starting step: <given "open the homepage">
+2026-03-07 05:04:24,826 - support.logger - INFO - Opening url: https://www.allbirds.com/
+2026-03-07 05:04:24,827 - support.logger - INFO - Starting step: <then "click shop all from header">
+2026-03-07 05:04:24,829 - support.logger - ERROR - Step failed: <then "click shop all from header">
+2026-03-07 05:04:24,897 - support.logger - INFO - Starting scenario: Filter by size
+2026-03-07 05:04:26,126 - support.logger - INFO - Starting step: <given "open the homepage">
+2026-03-07 05:04:26,635 - support.logger - INFO - Opening url: https://www.allbirds.com/
+2026-03-07 05:04:26,635 - support.logger - INFO - Starting step: <then "go to product list">
+2026-03-07 05:04:26,637 - support.logger - ERROR - Step failed: <then "go to product list">
+2026-03-07 05:04:26,705 - support.logger - INFO - Starting scenario: Sort products by price low to high
+2026-03-07 05:04:28,074 - support.logger - INFO - Starting step: <given "open the homepage">
+2026-03-07 05:04:28,512 - support.logger - INFO - Opening url: https://www.allbirds.com/
+2026-03-07 05:04:28,512 - support.logger - INFO - Starting step: <then "go to product list">
+2026-03-07 05:04:28,514 - support.logger - ERROR - Step failed: <then "go to product list">
+2026-03-07 05:04:28,584 - support.logger - INFO - Starting scenario: Check homepage layout on different devices -- @1.1 
+2026-03-07 05:04:29,963 - support.logger - INFO - Starting step: <given "I open the homepage on "desktop"">
+2026-03-07 05:04:30,305 - support.logger - ERROR - Step failed: <given "I open the homepage on "desktop"">
+2026-03-07 05:04:30,373 - support.logger - INFO - Starting scenario: Check homepage layout on different devices -- @1.2 
+2026-03-07 05:04:31,679 - support.logger - INFO - Starting step: <given "I open the homepage on "tablet"">
+2026-03-07 05:04:32,158 - support.logger - ERROR - Step failed: <given "I open the homepage on "tablet"">
+2026-03-07 05:04:32,225 - support.logger - INFO - Starting scenario: Check homepage layout on different devices -- @1.3 
+2026-03-07 05:04:33,615 - support.logger - INFO - Starting step: <given "I open the homepage on "mobile"">
+2026-03-07 05:04:33,873 - support.logger - ERROR - Step failed: <given "I open the homepage on "mobile"">
+2026-03-07 05:04:33,940 - support.logger - INFO - Starting scenario: Homepage loads within acceptable time
+2026-03-07 05:04:35,216 - support.logger - INFO - Starting step: <given "I measure the homepage load time">
+2026-03-07 05:04:35,679 - support.logger - INFO - Starting step: <then "It should load in under 3 seconds">
+2026-03-07 05:05:06,967 - support.logger - INFO - Starting scenario: Update product quantity
+2026-03-07 05:05:08,520 - support.logger - INFO - Starting step: <given "open the homepage">
+2026-03-07 05:05:09,919 - support.logger - INFO - Opening url: https://www.allbirds.com/
+2026-03-07 05:05:09,919 - support.logger - INFO - Starting step: <when "I update the quantity to 3">
+2026-03-07 05:05:22,320 - support.logger - INFO - Starting step: <then "the cart total should reflect the quantity">
+2026-03-07 05:09:32,269 - support.logger - INFO - Starting scenario: Add product to cart
+2026-03-07 05:09:33,783 - support.logger - INFO - Starting step: <given "open the homepage">
+2026-03-07 05:09:35,604 - support.logger - INFO - Opening url: https://www.allbirds.com/
+2026-03-07 05:09:35,604 - support.logger - INFO - Starting step: <when "I add the product to cart">
+2026-03-07 05:09:37,781 - support.logger - INFO - Clicking element: ('css selector', '[id="cart-drawer-checkout-button"]')
+2026-03-07 05:09:44,415 - support.logger - INFO - Starting step: <then "the cart should display the product">
+2026-03-07 05:09:48,507 - support.logger - ERROR - Step failed: <then "the cart should display the product">
+2026-03-07 05:15:22,877 - support.logger - INFO - Starting scenario: Add product to cart
+2026-03-07 05:15:24,532 - support.logger - INFO - Starting step: <given "open the homepage">
+2026-03-07 05:15:26,580 - support.logger - INFO - Opening url: https://www.allbirds.com/
+2026-03-07 05:15:26,580 - support.logger - INFO - Starting step: <when "I add the product to cart">
+2026-03-07 05:15:28,719 - support.logger - INFO - Clicking element: ('css selector', '[id="cart-drawer-checkout-button"]')
+2026-03-07 05:15:35,664 - support.logger - INFO - Starting step: <then "the cart should display the product">
+2026-03-07 05:15:39,723 - support.logger - ERROR - Step failed: <then "the cart should display the product">
+2026-03-07 05:17:42,738 - support.logger - INFO - Starting scenario: Filter by size
+2026-03-07 05:17:44,369 - support.logger - INFO - Starting step: <given "open the homepage">
+2026-03-07 05:17:46,451 - support.logger - INFO - Opening url: https://www.allbirds.com/
+2026-03-07 05:17:46,451 - support.logger - INFO - Starting step: <then "go to product list">
+2026-03-07 05:17:56,795 - support.logger - ERROR - Step failed: <then "go to product list">
+2026-03-07 05:17:56,894 - support.logger - INFO - Starting scenario: Sort products by price low to high
+2026-03-07 05:17:58,240 - support.logger - INFO - Starting step: <given "open the homepage">
+2026-03-07 05:18:00,464 - support.logger - INFO - Opening url: https://www.allbirds.com/
+2026-03-07 05:18:00,465 - support.logger - INFO - Starting step: <then "go to product list">
+2026-03-07 05:18:05,685 - support.logger - INFO - Starting step: <when "I sort products by "Price: Low to High"">
+2026-03-07 05:18:15,763 - support.logger - INFO - Starting step: <then "products should be sorted in ascending order by price">
+2026-03-07 05:18:25,659 - support.logger - INFO - Starting scenario: Filter by size
+2026-03-07 05:18:27,165 - support.logger - INFO - Starting step: <given "open the homepage">
+2026-03-07 05:18:29,650 - support.logger - INFO - Opening url: https://www.allbirds.com/
+2026-03-07 05:18:29,651 - support.logger - INFO - Starting step: <then "go to product list">
+2026-03-07 05:18:39,978 - support.logger - ERROR - Step failed: <then "go to product list">
+2026-03-07 05:18:40,077 - support.logger - INFO - Starting scenario: Sort products by price low to high
+2026-03-07 05:18:41,499 - support.logger - INFO - Starting step: <given "open the homepage">
+2026-03-07 05:18:43,554 - support.logger - INFO - Opening url: https://www.allbirds.com/
+2026-03-07 05:18:43,554 - support.logger - INFO - Starting step: <then "go to product list">
+2026-03-07 05:18:48,693 - support.logger - INFO - Starting step: <when "I sort products by "Price: Low to High"">
+2026-03-07 05:18:58,773 - support.logger - INFO - Starting step: <then "products should be sorted in ascending order by price">
+2026-03-07 05:20:25,270 - support.logger - INFO - Starting scenario: Filter by size
+2026-03-07 05:20:26,865 - support.logger - INFO - Starting step: <given "open the homepage">
+2026-03-07 05:20:28,956 - support.logger - INFO - Opening url: https://www.allbirds.com/
+2026-03-07 05:20:28,956 - support.logger - INFO - Starting step: <then "go to product list">
+2026-03-07 05:20:34,544 - support.logger - INFO - Starting step: <when "I filter by size 10">
+2026-03-07 05:20:34,627 - support.logger - INFO - Clicking element: ('css selector', '[for="Filter-filter.p.m.allbirds_v2.category_sizes-10"]')
+2026-03-07 05:20:45,069 - support.logger - INFO - Starting step: <then "all products displayed should have size "10"">
+2026-03-08 04:56:17,688 - support.logger - INFO - Starting scenario: Add product to cart
+2026-03-08 04:56:20,169 - support.logger - INFO - Starting step: <given "open the homepage">
+2026-03-08 04:56:22,795 - support.logger - INFO - Opening url: https://www.allbirds.com/
+2026-03-08 04:56:22,795 - support.logger - INFO - Starting step: <when "I add the product to cart">
+2026-03-08 04:56:24,903 - support.logger - INFO - Clicking element: ('css selector', '[id="cart-drawer-checkout-button"]')
+2026-03-08 04:56:31,282 - support.logger - INFO - Starting step: <then "the cart should display the product">
+2026-03-08 04:59:28,221 - support.logger - INFO - Starting scenario: Add product to cart
+2026-03-08 04:59:29,836 - support.logger - INFO - Starting step: <given "open the homepage">
+2026-03-08 04:59:32,285 - support.logger - INFO - Opening url: https://www.allbirds.com/
+2026-03-08 04:59:32,285 - support.logger - INFO - Starting step: <then "select for men">
+2026-03-08 04:59:32,285 - support.logger - INFO - Clicking element: ('css selector', '[class="shop-men btn btn-outline-black min-w-32"]')
+2026-03-08 04:59:34,029 - support.logger - INFO - Starting step: <when "I select size 10">
+2026-03-08 04:59:34,029 - support.logger - INFO - Clicking element: ('css selector', '[aria-label="Select size 10"]')
+2026-03-08 04:59:35,280 - support.logger - INFO - Starting scenario: Verify product images load
+2026-03-08 04:59:36,735 - support.logger - INFO - Starting step: <given "open the homepage">
+2026-03-08 04:59:37,617 - support.logger - INFO - Opening url: https://www.allbirds.com/
+2026-03-08 04:59:37,624 - support.logger - INFO - Starting step: <then "click shop all from header">
+2026-03-08 04:59:44,646 - support.logger - INFO - Starting step: <then "all product images should be visible">
+2026-03-08 05:00:06,937 - support.logger - INFO - Starting scenario: Add product to cart
+2026-03-08 05:00:08,696 - support.logger - INFO - Starting step: <given "open the homepage">
+2026-03-08 05:00:09,841 - support.logger - INFO - Opening url: https://www.allbirds.com/
+2026-03-08 05:00:09,841 - support.logger - INFO - Starting step: <then "select for men">
+2026-03-08 05:00:09,841 - support.logger - INFO - Clicking element: ('css selector', '[class="shop-men btn btn-outline-black min-w-32"]')
+2026-03-08 05:00:11,278 - support.logger - INFO - Starting step: <when "I select size 10">
+2026-03-08 05:00:11,278 - support.logger - INFO - Clicking element: ('css selector', '[aria-label="Select size 10"]')
+2026-03-08 05:00:11,410 - support.logger - INFO - Starting step: <when "I click Add to Cart">
+2026-03-08 05:00:11,410 - support.logger - INFO - Clicking element: ('css selector', '[data-testid="pdp-atc-button"]')
+2026-03-08 05:00:15,581 - support.logger - INFO - Starting scenario: Verify product images load
+2026-03-08 05:00:17,000 - support.logger - INFO - Starting step: <given "open the homepage">
+2026-03-08 05:00:19,004 - support.logger - INFO - Opening url: https://www.allbirds.com/
+2026-03-08 05:00:19,004 - support.logger - INFO - Starting step: <then "click shop all from header">
+2026-03-08 05:00:26,694 - support.logger - INFO - Starting step: <then "all product images should be visible">
+2026-03-09 00:39:09,599 - support.logger - INFO - Starting scenario: Add product to cart
+2026-03-09 00:39:11,398 - support.logger - INFO - Starting step: <given "open the homepage">
+2026-03-09 00:39:13,472 - support.logger - INFO - Opening url: https://www.allbirds.com/
+2026-03-09 00:39:13,473 - support.logger - INFO - Starting step: <when "I add the product to cart">
+2026-03-09 00:39:15,645 - support.logger - INFO - Clicking element: ('css selector', '[id="cart-drawer-checkout-button"]')
+2026-03-09 00:39:22,412 - support.logger - INFO - Starting step: <then "the cart should display the product">
+2026-03-09 00:43:17,354 - support.logger - INFO - Starting scenario: Add product to cart
+2026-03-09 00:43:19,313 - support.logger - INFO - Starting step: <given "open the homepage">
+2026-03-09 00:43:21,177 - support.logger - INFO - Opening url: https://www.allbirds.com/
+2026-03-09 00:43:21,178 - support.logger - INFO - Starting step: <when "I add the product to cart">
+2026-03-09 00:43:23,271 - support.logger - INFO - Clicking element: ('css selector', '[id="cart-drawer-checkout-button"]')
+2026-03-09 00:43:30,387 - support.logger - INFO - Starting step: <then "the cart should display the product">
+2026-03-09 00:43:55,954 - support.logger - INFO - Starting scenario: Add product to cart
+2026-03-09 00:43:57,896 - support.logger - INFO - Starting step: <given "open the homepage">
+2026-03-09 00:43:59,972 - support.logger - INFO - Opening url: https://www.allbirds.com/
+2026-03-09 00:43:59,972 - support.logger - INFO - Starting step: <when "I add the product to cart">
+2026-03-09 00:44:02,044 - support.logger - INFO - Clicking element: ('css selector', '[id="cart-drawer-checkout-button"]')
+2026-03-09 00:44:08,517 - support.logger - INFO - Starting step: <then "the cart should display the product">
+2026-03-09 00:47:05,609 - support.logger - INFO - Starting scenario: Add product to cart
+2026-03-09 00:47:07,493 - support.logger - INFO - Starting step: <given "open the homepage">
+2026-03-09 00:47:09,617 - support.logger - INFO - Opening url: https://www.allbirds.com/
+2026-03-09 00:47:09,617 - support.logger - INFO - Starting step: <when "I add the product to cart">
+2026-03-09 00:47:11,701 - support.logger - INFO - Clicking element: ('css selector', '[id="cart-drawer-checkout-button"]')
+2026-03-09 00:47:18,081 - support.logger - INFO - Starting step: <then "the cart should display the product">
+2026-03-09 00:47:18,119 - support.logger - INFO - Starting step: <then "Remove product from cart and Verify the cart should be empty">
+2026-03-09 00:47:18,120 - support.logger - INFO - Clicking element: ('css selector', '[class="s2kwpi1 s2kwpi0 _1fragemsm _1fragemyw _1fragemz2 _1fragemyq s2kwpi3 s2kwpi6 s2kwpi9 s2kwpi7 _1fragem32 _1fragemvq"')
+2026-03-09 00:51:04,193 - support.logger - INFO - Starting scenario: Add product to cart
+2026-03-09 00:51:06,113 - support.logger - INFO - Starting step: <given "open the homepage">
+2026-03-09 00:51:07,308 - support.logger - INFO - Opening url: https://www.allbirds.com/
+2026-03-09 00:51:07,308 - support.logger - INFO - Starting step: <when "I add the product to cart">
+2026-03-09 00:51:09,392 - support.logger - INFO - Clicking element: ('css selector', '[id="cart-drawer-checkout-button"]')
+2026-03-09 00:51:16,044 - support.logger - INFO - Starting step: <then "the cart should display the product">
+2026-03-09 00:51:16,085 - support.logger - INFO - Starting step: <then "Remove product from cart and Verify the cart should be empty">
+2026-03-09 00:51:16,085 - support.logger - INFO - Clicking element: ('css selector', '[class="s2kwpi1 s2kwpi0 _1fragemsm _1fragemyw _1fragemz2 _1fragemyq s2kwpi3 s2kwpi6 s2kwpi9 s2kwpi7 _1fragem32 _1fragemvq"')
+2026-03-09 00:53:26,691 - support.logger - INFO - Starting scenario: Add product to cart
+2026-03-09 00:53:28,537 - support.logger - INFO - Starting step: <given "open the homepage">
+2026-03-09 00:53:30,080 - support.logger - INFO - Opening url: https://www.allbirds.com/
+2026-03-09 00:53:30,081 - support.logger - INFO - Starting step: <when "I add the product to cart">
+2026-03-09 00:53:32,167 - support.logger - INFO - Clicking element: ('css selector', '[id="cart-drawer-checkout-button"]')
+2026-03-09 00:53:38,699 - support.logger - INFO - Starting step: <then "the cart should display the product">
+2026-03-09 00:53:38,739 - support.logger - INFO - Starting step: <then "Remove product from cart and Verify the cart should be empty">
+2026-03-09 00:53:38,739 - support.logger - INFO - Clicking element: ('css selector', '[class="gP50U')
+2026-03-09 00:56:48,975 - support.logger - INFO - Starting scenario: Add product to cart
+2026-03-09 00:56:50,804 - support.logger - INFO - Starting step: <given "open the homepage">
+2026-03-09 00:56:52,038 - support.logger - INFO - Opening url: https://www.allbirds.com/
+2026-03-09 00:56:52,038 - support.logger - INFO - Starting step: <when "I add the product to cart">
+2026-03-09 00:56:54,186 - support.logger - INFO - Clicking element: ('css selector', '[id="cart-drawer-checkout-button"]')
+2026-03-09 00:57:00,736 - support.logger - INFO - Starting step: <then "the cart should display the product">
+2026-03-09 00:57:00,762 - support.logger - INFO - Starting step: <then "Remove product from cart and Verify the cart should be empty">
+2026-03-09 00:57:00,762 - support.logger - INFO - Clicking element: ('css selector', '[alt="Allbirds')
+2026-03-09 00:57:56,629 - support.logger - INFO - Starting scenario: Add product to cart
+2026-03-09 00:57:58,477 - support.logger - INFO - Starting step: <given "open the homepage">
+2026-03-09 00:57:59,633 - support.logger - INFO - Opening url: https://www.allbirds.com/
+2026-03-09 00:57:59,633 - support.logger - INFO - Starting step: <when "I add the product to cart">
+2026-03-09 00:58:01,709 - support.logger - INFO - Clicking element: ('css selector', '[id="cart-drawer-checkout-button"]')
+2026-03-09 00:58:08,902 - support.logger - INFO - Starting step: <then "the cart should display the product">
+2026-03-09 00:58:08,940 - support.logger - INFO - Starting step: <then "Remove product from cart and Verify the cart should be empty">
+2026-03-09 01:01:46,444 - support.logger - INFO - Starting scenario: Add product to cart
+2026-03-09 01:01:48,280 - support.logger - INFO - Starting step: <given "open the homepage">
+2026-03-09 01:01:50,277 - support.logger - INFO - Opening url: https://www.allbirds.com/
+2026-03-09 01:01:50,278 - support.logger - INFO - Starting step: <when "I add the product to cart">
+2026-03-09 01:01:52,354 - support.logger - INFO - Clicking element: ('css selector', '[id="cart-drawer-checkout-button"]')
+2026-03-09 01:01:58,876 - support.logger - INFO - Starting step: <then "the cart should display the product">
+2026-03-09 01:01:58,914 - support.logger - INFO - Starting step: <then "Remove product from cart and Verify the cart should be empty">
+2026-03-09 01:01:58,965 - support.logger - INFO - Clicking element: ('xpath', "(//*[name()='svg'][@class='size-6'])[8]")
+2026-03-09 01:05:36,142 - support.logger - INFO - Starting scenario: Add product to cart
+2026-03-09 01:05:38,028 - support.logger - INFO - Starting step: <given "open the homepage">
+2026-03-09 01:05:40,406 - support.logger - INFO - Opening url: https://www.allbirds.com/
+2026-03-09 01:05:40,407 - support.logger - INFO - Starting step: <when "I add the product to cart">
+2026-03-09 01:05:42,531 - support.logger - INFO - Clicking element: ('css selector', '[id="cart-drawer-checkout-button"]')
+2026-03-09 01:05:49,062 - support.logger - INFO - Starting step: <then "the cart should display the product">
+2026-03-09 01:05:49,094 - support.logger - INFO - Starting step: <then "Remove product from cart and Verify the cart should be empty">
+2026-03-09 01:05:51,130 - support.logger - INFO - Clicking element: ('xpath', "(//*[name()='svg'][@class='size-6'])[8]")
+2026-03-09 01:06:46,540 - support.logger - INFO - Starting scenario: Add product to cart
+2026-03-09 01:06:48,322 - support.logger - INFO - Starting step: <given "open the homepage">
+2026-03-09 01:06:50,262 - support.logger - INFO - Opening url: https://www.allbirds.com/
+2026-03-09 01:06:50,263 - support.logger - INFO - Starting step: <when "I add the product to cart">
+2026-03-09 01:06:52,352 - support.logger - INFO - Clicking element: ('css selector', '[id="cart-drawer-checkout-button"]')
+2026-03-09 01:06:59,110 - support.logger - INFO - Starting step: <then "the cart should display the product">
+2026-03-09 01:06:59,151 - support.logger - INFO - Starting step: <then "Remove product from cart and Verify the cart should be empty">
+2026-03-09 01:07:01,198 - support.logger - INFO - Clicking element: ('css selector', '[aria-label="Close cart')
+2026-03-09 01:07:03,239 - support.logger - INFO - Clicking element: ('xpath', "(//*[name()='svg'][@class='size-6'])[8]")
+2026-03-09 01:07:05,307 - support.logger - INFO - Clicking element: ('css selector', '[title="Remove item"]')
